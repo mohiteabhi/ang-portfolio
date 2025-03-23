@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    
+}
+
+.container {
+    max-width: 1200px !important; 
+    margin: 0 auto !important; 
+    padding: 0 20px !important; 
+}
+
+:root {
+    --box-shadow: 0 4px 8px rgba(24, 23, 23, 0.8);
+    --transition-duration: 0.3s ease-in-out;
+    --primary-black: #333;
+    --hero-light-blue: #b3e5fc;
+    --bg-about: #f0f0f0;
+    --bg-about-linear: #e6efff;
+    --project-overlay: linear-gradient(160deg, rgba(25,25,25,0.9) 30%, rgba(0,0,0,0.6) 100%);
+    --tech-tag-bg: rgba(255, 149, 0, 0.15);
+    --project-spacing: 2rem;
+    --spn: #ff9500; /* Orange accent color */
+    --project-glow: rgba(255, 149, 0, 0.2);
+    --card-radius: 12px
+
+
+}

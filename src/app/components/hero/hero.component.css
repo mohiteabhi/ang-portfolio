@@ -1,0 +1,161 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    height: 300px; /* Adjusted to prevent large gaps */
+    perspective: 500px; /* Creates the 3D effect */
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: transform 0.2s ease-out; */
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    transform-style: preserve-3d;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+    transform: translateZ(50px); /* Moves card slightly forward */
+}
+
+.card:hover img {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+#hero-sec{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(180, 219, 246, 0.8), #ffccbc);
+    overflow: hidden;
+} 
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+
+}
+
+.hero-content h1{
+    font-size: 50px;
+    color: #102133;
+    margin: 10px 0;
+    
+}
+
+.hero-content h2{
+    font-size: 30px;
+    color: #3d6b73;
+    margin: 0; /* Remove margin for better spacing */
+}
+
+.hero-content .download{
+    /* color: #882323;
+    border: 1px #26514c solid;
+    border-radius: 1000px;
+    padding: 11px;
+    margin-top: 20px; 
+    box-shadow: var(--box-shadow);
+    transition: border-color var(--transition-duration);
+    cursor: pointer; */
+
+
+    color: #882323;
+    border: 1px #26514c solid;
+    border-radius: 1000px;
+    padding: 11px 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    display: inline-block;
+    background: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transform-style: preserve-3d;
+
+}
+
+.hero-content .download a{
+    /* color: var(--primary-black);
+    font-size: 16px;
+    text-decoration: none; */
+
+
+    text-decoration: none;
+    color: var(--primary-black);
+
+}
+
+.hero-content .download:hover{
+    /* background-color: #686868;
+    box-shadow: 0 0 10px rgba(64, 75, 93, 0.8), 
+    0 0 20px rgba(64, 75, 93, 0.6),     
+    0 0 30px rgba(64, 75, 93, 0.6); */
+
+
+    transform: translateZ(15px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content .download:active {
+    transform: translateZ(5px) scale(0.98);
+}
+
+.hero-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border: 3px #E52E2D solid;  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+      .hero-content img {
+        width: 200px;
+        height: 200px; 
+    } 
+
+    /* #particle-js{
+        height: 150%;
+    } */
+    /* .hero-content {
+        top: 40%; /* Adjust top to keep content centered 
+    } */
+
+    #hero-sec {
+        height: 150vh; /* Increase height for the hero section in mobile view */
+    }
+
+    #particles-js {
+        height: 150vh; /* Match the increased height */
+    }
+
+    .hero-content {
+        top: 45%; /* Adjust the positioning to keep content centered */
+    }
+}

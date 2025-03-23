@@ -1,0 +1,16 @@
+   <nav>
+    <div class="logo">
+      <h1>Logo</h1>
+    </div>
+    
+    <ul [ngStyle]="{'max-height': menuOpen ? '300px' : '0px'}" id="menuList">
+      <li><a href="#" (click)="menuOpen = false">Home</a></li>
+      <li><a href="#" (click)="menuOpen = false">About</a></li>
+      <li><a href="#" (click)="menuOpen = false">Project</a></li>
+      <li><a href="#" (click)="menuOpen = false">Contact</a></li>
+    </ul>
+  
+    <div class="menu-icon">
+      <i class="fa-solid" [ngClass]="menuOpen ? 'fa-times' : 'fa-bars'" (click)="toggleMenu()"></i>
+    </div>
+  </nav>
