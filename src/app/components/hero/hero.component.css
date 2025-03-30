@@ -87,7 +87,7 @@
     color: #882323;
     border: 1px #26514c solid;
     border-radius: 1000px;
-    padding: 11px 20px;
+/*     padding: 11px 20px; */
     margin-top: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
