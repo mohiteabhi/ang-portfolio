@@ -296,7 +296,7 @@ body.dark-mode {
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
     .dark-mode nav ul {
-        background: linear-gradient(to right, #000000, #000) !important;
+        background: var(--linear-dark) !important;
         box-shadow: 0 4px 8px rgba(103, 99, 99, 0.8) !important;
     }
 

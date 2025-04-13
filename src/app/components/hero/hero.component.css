@@ -130,21 +130,7 @@
 .hero-content .download{   color: #882323;
     border: 1px #26514c solid;
     border-radius: 1000px;
-<<<<<<< HEAD
     /* padding: 11px 20px; */
-=======
-    padding: 11px;
-    margin-top: 20px; 
-    box-shadow: var(--box-shadow);
-    transition: border-color var(--transition-duration);
-    cursor: pointer; */
-
-
-    color: #882323;
-    border: 1px #26514c solid;
-    border-radius: 1000px;
-/*     padding: 11px 20px; */
->>>>>>> 5308f0809a1f860b9649444e9d435a1852fbfc5e
     margin-top: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
@@ -198,7 +184,6 @@
        /* top: 45%;  Adjust the positioning to keep content centered */
     }
 }
-<<<<<<< HEAD
 
 .download {
     border: 1px solid #26514c;
@@ -262,5 +247,3 @@
   .download:active {
     transform: translateZ(5px) scale(0.98);
   }
-=======
->>>>>>> 5308f0809a1f860b9649444e9d435a1852fbfc5e

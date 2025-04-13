@@ -28,8 +28,21 @@ nav {
     padding-right: 75px;
 }
 
-.logo {
+/* .logo {
     color: #000000;
+} */
+.logo img {
+    width: 50px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.logo img:hover {
+    background-color: rgb(64, 75, 93);
+    box-shadow: 0 0 10px rgba(64, 75, 93, 0.8), /* Soft white glow */
+                0 0 20px rgba(64, 75, 93, 0.6),     /* Red outer glow */
+                0 0 30px rgba(64, 75, 93, 0.6);
 }
 
 nav ul {
