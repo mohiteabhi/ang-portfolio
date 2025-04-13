@@ -83,7 +83,7 @@ nav ul li a:hover {
 
     nav ul li {
         width: 100%;
-        padding: 15px 0;
+        padding: 9px 0;
     }
 
     nav ul li a {
@@ -100,3 +100,41 @@ nav ul li a:hover {
         display: block !important;
     }
 }
+
+.dark-mode-toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+  
+  .custom-icon {
+    transition: all 0.3s ease-in-out;
+    background: none;
+    filter: none;
+  }
+  
+  .dark-mode-toggle .custom-icon {
+    color: #f39c12;
+  }
+  
+  .dark-mode-toggle .custom-icon:hover {
+    color: #f1c40f;
+    text-shadow: 0 0 15px rgba(243, 156, 18, 0.8),
+                 0 0 30px rgba(243, 156, 18, 0.6),
+                 0 0 45px rgba(243, 156, 18, 0.4),
+                 0 0 60px rgba(243, 156, 18, 0.2);
+    filter: drop-shadow(0 0 8px rgba(243, 156, 18, 0.7));
+  }
+  
+  body.dark-mode .dark-mode-toggle .custom-icon {
+    color: #000;
+  }
+  
+  body.dark-mode .dark-mode-toggle .custom-icon:hover {
+    color: #111;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8),
+                 0 0 30px rgba(0, 0, 0, 0.6),
+                 0 0 45px rgba(0, 0, 0, 0.4),
+                 0 0 60px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
+  }

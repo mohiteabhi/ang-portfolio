@@ -1,16 +1,22 @@
-   <nav>
-    <div class="logo">
-      <h1>Logo</h1>
-    </div>
-    
-    <ul [ngStyle]="{'max-height': menuOpen ? '300px' : '0px'}" id="menuList">
-      <li><a href="#" (click)="menuOpen = false">Home</a></li>
-      <li><a href="#" (click)="menuOpen = false">About</a></li>
-      <li><a href="#" (click)="menuOpen = false">Project</a></li>
-      <li><a href="#" (click)="menuOpen = false">Contact</a></li>
-    </ul>
-  
-    <div class="menu-icon">
-      <i class="fa-solid" [ngClass]="menuOpen ? 'fa-times' : 'fa-bars'" (click)="toggleMenu()"></i>
-    </div>
-  </nav>
+<nav>
+  <div class="logo">
+    <h1>Logo</h1>
+  </div>
+
+  <ul [ngStyle]="{'max-height': menuOpen ? '300px' : '0px'}" id="menuList">
+    <li><a href="#" (click)="scrollToSection('hero-sec', $event)">Home</a></li>
+    <li><a href="#about" (click)="scrollToSection('about', $event)">About</a></li>
+    <li><a href="#my-projects" (click)="scrollToSection('my-projects', $event)">Project</a></li>
+    <li><a href="#contact" (click)="scrollToSection('contact', $event)">Contact</a></li>
+    <li><div class="dark-mode-toggle" (click)="toggleDarkMode()">
+      <fa-icon class="custom-icon" [icon]="isDarkMode ? faSun : faMoon"></fa-icon>
+    </div></li>  
+  </ul>
+
+  <div class="menu-icon">
+    <fa-icon
+    [icon]="menuOpen ? faTimes : faBars"
+    (click)="toggleMenu()"
+  ></fa-icon>
+  </div>
+</nav>
