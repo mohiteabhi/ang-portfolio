@@ -153,6 +153,77 @@ body.dark-mode {
         0 0 60px rgba(255, 47, 47, 0.2) !important;
 }
 
+.dark-mode #skill2 i:hover{
+    color: #ffcc00 !important;
+    text-shadow: 0 0 15px rgba(255, 204, 0, 0.8), 
+                 0 0 30px rgba(255, 204, 0, 0.6),
+                 0 0 45px rgba(255, 204, 0, 0.4),
+                 0 0 60px rgba(255, 204, 0, 0.2) !important;
+}
+
+.dark-mode #skill3 i:hover{
+    color: #ff6a00 !important;
+    text-shadow: 0 0 15px rgba(255, 106, 0, 0.8), 
+                 0 0 30px rgba(255, 106, 0, 0.6),
+                 0 0 45px rgba(255, 106, 0, 0.4),
+                 0 0 60px rgba(255, 106, 0, 0.2) !important;
+}
+
+.dark-mode #skill4 i:hover{
+    color: rgb(37, 75, 221) !important;
+    text-shadow: 0 0 15px rgba(37, 75, 221, 0.8), 
+                 0 0 30px rgba(37, 75, 221, 0.6),
+                 0 0 45px rgba(37, 75, 221, 0.4),
+                 0 0 60px rgba(37, 75, 221, 0.2) !important;
+}
+
+.dark-mode #skill5 i:hover{
+    color: rgb(128, 0, 255) !important;
+    text-shadow: 0 0 15px rgba(131, 17, 246, 0.8), 
+                 0 0 30px rgba(131, 17, 246, 0.6),
+                 0 0 45px rgba(131, 17, 246, 0.4),
+                 0 0 60px rgba(131, 17, 246, 0.2) !important;
+}
+
+.dark-mode #skill6 i:hover{ 
+    color: rgb(255, 225, 0) !important;
+    text-shadow: 0 0 15px rgba(247, 224, 37, 0.8), 
+                 0 0 30px rgba(247, 224, 37, 0.6),
+                 0 0 45px rgba(247, 224, 37, 0.4),
+                 0 0 60px rgba(247, 224, 37, 0.2) !important;
+}
+
+.dark-mode #skill7 i:hover{
+    color: rgb(201, 200, 203) !important;
+    text-shadow: 0 0 15px rgba(201, 200, 203, 0.8), 
+                 0 0 30px rgba(201, 200, 203, 0.6),
+                 0 0 45px rgba(201, 200, 203, 0.4),
+                 0 0 60px rgba(201, 200, 203, 0.2) !important;
+}
+
+.dark-mode #skill8 i:hover{
+    color: rgb(0, 162, 255) !important;
+    text-shadow: 0 0 15px rgba(42, 178, 255, 0.8), 
+                 0 0 30px rgba(42, 178, 255, 0.6),
+                 0 0 45px rgba(42, 178, 255, 0.4),
+                 0 0 60px rgba(42, 178, 255, 0.2) !important;
+}
+
+.dark-mode #skill9 i:hover{
+    color: rgb(255, 64, 0) !important;
+    text-shadow: 0 0 15px rgba(236, 90, 41, 0.8), 
+                 0 0 30px rgba(236, 90, 41, 0.6),
+                 0 0 45px rgba(236, 90, 41, 0.4),
+                 0 0 60px rgba(236, 90, 41, 0.2) !important;
+}
+.dark-mode #skill10 i:hover{
+    color: rgb(255, 21, 0) !important;
+    text-shadow: 0 0 15px rgba(255, 117, 104, 0.8), 
+                 0 0 30px rgba(255, 117, 104, 0.6),
+                 0 0 45px rgba(255, 117, 104, 0.4),
+                 0 0 60px rgba(255, 117, 104, 0.2) !important;
+}
+
 .dark-mode .edu p {
     color: #bdbdbd !important;
 }
@@ -178,7 +249,7 @@ body.dark-mode {
 
 
 .dark-mode .project-subtitle {
-    color: rgba(0, 0, 0, 0.9) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .dark-mode .project-cover {

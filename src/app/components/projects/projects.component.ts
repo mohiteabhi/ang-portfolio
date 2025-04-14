@@ -82,13 +82,49 @@ export class ProjectsComponent {
       tags: ['JavaScript', 'Music', 'Interactive', 'Mini-Project']
     },    
     {
-      title: 'CHAT-BOT',
-      subtitle: 'Real-time Forecast',
-      link: '#',
-      image: 'assets/images/weeather.png',
-      coverTitle: 'Weather Forecasting System',
-      technologies: 'OpenWeather API · Geolocation · 5-day Predictions',
-      tags: ['Web App', 'Responsive']
+      title: 'To-Do List',  
+      subtitle: 'Track Your Daily Tasks',  
+      link: 'https://lnkd.in/dQrvAnnM',  
+      image: 'assets/images/todo-list.png',  
+      coverTitle: 'Task Management App',  
+      technologies: 'Local Storage · DOM Manipulation · Event Handling',  
+      tags: ['JavaScript', 'Productivity', 'Beginner Project', 'To-Do']  
+    },    
+    {
+      title: 'CSS Changer App',  
+      subtitle: 'Live Style Customizer',  
+      link: 'assets/images/css-changer.png',  
+      image: 'assets/images/css-changer.png',  
+      coverTitle: 'Dynamic CSS Editor',  
+      technologies: 'DOM Manipulation · Event Handling · CSS Variables',  
+      tags: ['JavaScript', 'Styling', 'Interactive', 'UI Enhancer']
+    },    
+    {
+      title: 'Form Validator',  
+      subtitle: 'Client-Side Input Validation',  
+      link: 'https://day-4-form-validation.netlify.app/',  
+      image: 'assets/images/form-validation.png',  
+      coverTitle: 'JavaScript Form Validation',  
+      technologies: 'Regex · DOM Manipulation · Event Listeners',  
+      tags: ['JavaScript', 'Validation', 'Form', 'Regex'] 
+    },    
+    {
+      title: 'Custom Cursor',  
+      subtitle: 'Animated Mouse Tracker',  
+      link: 'https://lnkd.in/dx86zN4z',  
+      image: 'assets/images/custom-cursor.png',  
+      coverTitle: 'Interactive Cursor Animation',  
+      technologies: 'JavaScript · CSS Animations · DOM Events',  
+      tags: ['UI Effects', 'JavaScript', 'Animation', 'Mini Project']  
+    },    
+    {
+      title: 'Accordion',  
+      subtitle: 'JavaScript Concepts Explained',  
+      link: 'https://lnkd.in/duM5mwUi',  
+      image: 'assets/images/accordion.png',  
+      coverTitle: 'Interactive Accordion for JS Topics',  
+      technologies: 'JavaScript · CSS Transitions · Event Delegation',  
+      tags: ['UI Component', 'JavaScript', 'Accordion', 'Mini Project']  
     },
   ];
 
