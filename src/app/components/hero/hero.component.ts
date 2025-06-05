@@ -104,7 +104,7 @@ export class HeroComponent implements AfterViewInit {
     }, 10);
   }
 
-  wordList: string[] = ['An Engineer', 'Frontend Developer'];
+  wordList: string[] = ['An Engineer.', 'Junior Software Developer.','A Learner.'];
   wordIndex: number = 0;
   charIndex: number = 0;
   isDeleting: boolean = false;
