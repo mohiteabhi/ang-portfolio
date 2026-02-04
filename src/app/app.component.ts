@@ -10,19 +10,19 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
 
-    document.addEventListener('contextmenu', (event) => {
-      event.preventDefault();
-    });
+    // document.addEventListener('contextmenu', (event) => {
+    //   event.preventDefault();
+    // });
 
-    document.addEventListener('keydown', (event) => {
-      if (
-        event.key === "F12" ||
-        (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "C")) ||
-        (event.ctrlKey && event.key === "U")
-      ) {
-        event.preventDefault();
-      }
-    });
+    // document.addEventListener('keydown', (event) => {
+    //   if (
+    //     event.key === "F12" ||
+    //     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "C")) ||
+    //     (event.ctrlKey && event.key === "U")
+    //   ) {
+    //     event.preventDefault();
+    //   }
+    // });
 
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'hidden') {

@@ -132,6 +132,10 @@ body.dark-mode {
     color: #cacaca !important;
 }
 
+.dark-mode .hero-tagline, .dark-mode  #hero-text-animation {
+    color: #61dafb !important;
+}
+
 .dark-mode .skill i,
 .dark-mode .skill p {
     color: var(--primary-white) !important;
